@@ -34,14 +34,14 @@
 
 | 📦 模块 | 🔑 关键能力 | 🔗 接口示例 |
 | --- | --- | --- |
-| 💰 银联交易服务 | 签到、签到 Key 注入与校验、余额查询、消费、冲正、退费、电子医保码验证 | `/unionPay/signIn`、`/unionPay/uploadPlainKey`、`/unionPay/balance`、`/unionPay/consume`、`/unionPay/reversal`、`/unionPay/refund`、`/unionPay/electronCode` |
-| 🏧 银行卡读取 | 初始化/释放读卡器、设备信息、卡信息读取；已适配德卡、强氏、创自等厂商读卡器 | `/reader/bankCard/openReader`、`/closeReader`、`/deviceInfo`、`/cardInfo` |
-| 💳 社保卡读取 | 初始化/释放读卡器、设备信息、卡信息、持卡人信息、社保账户信息；已适配德卡、强氏、创自等厂商读卡器 | `/reader/ssCard/openReader`、`/closeReader`、`/deviceInfo`、`/cardInfo`、`/holderInfo`、`/accountInfo` |
-| 👤 医保电子凭证与刷脸 | 电子凭证业务、二维码解码、刷脸授权、身份获取、刷脸认证、身份证读取、刷脸核身 | `/insurance/nationEC/call`、`/ecToken`、`/qrcodeGet`、`/ecAuth`、`/ecAuthCheck`、`/faceAuth`、`/certGet`、`/certCheck` |
-| 🆔 身份证读取 | 读卡器信息、身份证信息读取 | `/reader/idCard/deviceInfo`、`/cardInfo` |
-| 🧾 小票打印 | 设备信息、XML 模板打印、条码/二维码、走纸、切纸；票据打印已适配研科、美松等厂商设备 | `/receipt/deviceInfo`、`/print` |
-| 🖨️ 文件打印 | 打印机列表、默认打印机、设置默认、文件打印、唤醒、状态、耗材 | `/printer/getPrinterNames`、`/getDefaultPrinterName`、`/setDefaultPrinter`、`/printFile`、`/wakePrinter`、`/getPrinterStatus`、`/getSupplyStatus` |
-| ⌨️ 密码键盘 | 打开/关闭、键盘信息、扫描按键 | `/keyboard/open`、`/close`、`/info`、`/scanKeyPress` |
+| 💰 银联交易服务 | 签到、签到 Key 注入与校验、余额查询、消费、冲正、退费、电子医保码验证 | `/unionPay/signIn`<br>`/unionPay/uploadPlainKey`<br>`/unionPay/balance`<br>`/unionPay/consume`<br>`/unionPay/reversal`<br>`/unionPay/refund`<br>`/unionPay/electronCode` |
+| 🏧 银行卡读取 | 初始化/释放读卡器、设备信息、卡信息读取；已适配德卡、强氏、创自等厂商读卡器 | `/reader/bankCard/openReader`<br>`/closeReader`<br>`/deviceInfo`<br>`/cardInfo` |
+| 💳 社保卡读取 | 初始化/释放读卡器、设备信息、卡信息、持卡人信息、社保账户信息；已适配德卡、强氏、创自等厂商读卡器 | `/reader/ssCard/openReader`<br>`/closeReader`<br>`/deviceInfo`<br>`/cardInfo`<br>`/holderInfo`<br>`/accountInfo` |
+| 👤 医保电子凭证与刷脸 | 电子凭证业务、二维码解码、刷脸授权、身份获取、刷脸认证、身份证读取、刷脸核身 | `/insurance/nationEC/call`<br>`/ecToken`<br>`/qrcodeGet`<br>`/ecAuth`<br>`/ecAuthCheck`<br>`/faceAuth`<br>`/certGet`<br>`/certCheck` |
+| 🆔 身份证读取 | 读卡器信息、身份证信息读取 | `/reader/idCard/deviceInfo`<br>`/cardInfo` |
+| 🧾 小票打印 | 设备信息、XML 模板打印、条码/二维码、走纸、切纸；票据打印已适配研科、美松等厂商设备 | `/receipt/deviceInfo`<br>`/print` |
+| 🖨️ 文件打印 | 打印机列表、默认打印机、设置默认、文件打印、唤醒、状态、耗材 | `/printer/getPrinterNames`<br>`/getDefaultPrinterName`<br>`/setDefaultPrinter`<br>`/printFile`<br>`/wakePrinter`<br>`/getPrinterStatus`<br>`/getSupplyStatus` |
+| ⌨️ 密码键盘 | 打开/关闭、键盘信息、扫描按键 | `/keyboard/open`<br>`/close`<br>`/info`<br>`/scanKeyPress` |
 
 ### 💰 1. 银联交易
 
